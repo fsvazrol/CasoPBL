@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss SYSTEM ".\DTD.dtd">
+
+<!-- Declaracion de RSS -->
+<rss version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./SCHEMA.xsd">
+
+
+    <channel>
+        <!-- Titulo del Canal -->
+        <title>Noticia de Prueba</title>
+        <!-- Descripcion del Canal -->
+        <description>Ejemplo de un RSS hecho a mano</description>
+        <!-- Enlace al sitio del Feed RSS -->
+        <link>https://ejemplo-rss.glitch.me/</link>
+        <!-- Especifica el idioma en el que va a ser escrito -->
+        <language>es</language>
+        <!--Permite que se muestre una imagen cuando los maricones presentan un feed-->
+        <image>
+            <url>https://www.w3schools.com/images/logo.gif</url>
+            <title>W3Schools.com</title>
+            <link>https://www.w3schools.com</link>
+        </image>
+        <!-- Elementos de feed, estos se muestran en los lectores de RSS en el orden que esten aquí de arriba hacia abajo -->
+        <!-- Elemento individual del Fedd -->
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure url="https://ofertaime.al/wp-content/uploads/2019/09/multicooke2r-300x225.jpg" type="image/jpeg"/>
+            <category>Internacional</category>
+            <!-- Titulo del elemento del feed -->
+            <title>El Orden Mundial</title>
+            <!-- El autor de la noticia -->
+            <author>mnoguescasas@safareyes.es</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://latribuna.es/noticia1.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>Anunakis</description>
+            <!-- Fecha de publicación -->
+            <pubDate>Sat, 7 Dic 2019 23:00:00 EST</pubDate>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure url="https://ofertaime.al/wp-content/uploads/2019/09/multicooke2r-300x225.jpg" type="image/jpeg"/>
+            <category>Deportes</category>
+            <!-- Titulo del elemento del feed -->
+            <title>El partido del Siglo</title>
+            <!-- El autor de la noticia -->
+            <author>ddominguezcampuzano@safareyes.es</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://elbalon.es/noticia4.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>Lucha contra el patriarcado</description>
+            <!-- Fecha de publicación -->
+            <pubDate>Wedn, 1 Dic 2019 23:00:00 EST</pubDate>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure url="https://ofertaime.al/wp-content/uploads/2019/09/multicooke2r-300x225.jpg" type="image/jpeg"/>
+            <category>Cultura</category>
+            <!-- Titulo del elemento del feed -->
+            <title>El Orden Mundial</title>
+            <!-- El autor de la noticia -->
+            <author>fvazquezroldan@safareyes.es</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://latribuna.es/noticia1.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>Lucha contra el fascismo</description>
+            <!-- Fecha de publicación -->
+            <pubDate>Mon, 13 Dic 2019 23:00:00 EST</pubDate>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure url="https://ofertaime.al/wp-content/uploads/2019/09/multicooke2r-300x225.jpg" type="image/jpeg"/>
+            <category>Tecnología</category>
+            <!-- Titulo del elemento del feed -->
+            <title>El partido del si</title>
+            <!-- El autor de la noticia -->
+            <author>jvillarrealoliver@safareyes.es</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://latribuna.es/noticia1.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>Lucha contra el feminismo</description>
+            <!-- Fecha de publicación -->
+            <pubDate>Tues, 16 Dic 2019 23:00:00 EST</pubDate>
+        </item>
+
+    </channel>
+</rss>

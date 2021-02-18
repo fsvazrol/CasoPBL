@@ -1,0 +1,18 @@
+<!ELEMENT rss (channel)*>
+        <!ATTLIST rss
+                version CDATA #REQUIRED>
+        <!ELEMENT channel (title|description|link|language|image|item)*>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT link (#PCDATA)>
+        <!ELEMENT language (#PCDATA)>
+        <!ELEMENT image (url|title|link)*>
+        <!ELEMENT url (#PCDATA)>
+        <!ELEMENT item (enclosure|category|title|author|link|description|pubDate)*>
+        <!ELEMENT enclosure (#PCDATA)>
+        <!ATTLIST enclosure
+                type CDATA #REQUIRED
+                url CDATA #REQUIRED>
+        <!ELEMENT category (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT pubDate (#PCDATA)>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="rss">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="channel"/>
+            </xs:sequence>
+            <xs:attribute name="version" use="required" type="xs:decimal"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="channel">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element ref="description"/>
+                <xs:element ref="link"/>
+                <xs:element ref="language"/>
+                <xs:element ref="image"/>
+                <xs:element ref="item" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="language" type="xs:NCName"/>
+    <xs:element name="image">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="url"/>
+                <xs:element ref="title"/>
+                <xs:element ref="link"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="url" type="xs:anyURI"/>
+    <xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="enclosure"/>
+                <xs:element ref="category"/>
+                <xs:element ref="title"/>
+                <xs:element ref="author"/>
+                <xs:element ref="link"/>
+                <xs:element ref="description"/>
+                <xs:element ref="pubDate"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="enclosure">
+        <xs:complexType>
+            <xs:attribute name="type" use="required"/>
+            <xs:attribute name="url" use="required" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="category" type="xs:string"/>
+    <xs:element name="author" type="xs:string"/>
+    <xs:element name="pubDate" type="xs:string"/>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="link" type="xs:anyURI"/>
+</xs:schema>
