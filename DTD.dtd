@@ -8,11 +8,13 @@
         <!ELEMENT language (#PCDATA)>
         <!ELEMENT image (url|title|link)*>
         <!ELEMENT url (#PCDATA)>
-        <!ELEMENT item (enclosure|category|title|author|link|description|pubDate)*>
+        <!ELEMENT item (enclosure|category|title|author|link|description|pubDate|guid)*>
         <!ELEMENT enclosure (#PCDATA)>
         <!ATTLIST enclosure
-                type CDATA #REQUIRED
-                url CDATA #REQUIRED>
+                url CDATA #REQUIRED
+                length CDATA #REQUIRED
+                type CDATA #REQUIRED>
         <!ELEMENT category (#PCDATA)>
         <!ELEMENT author (#PCDATA)>
         <!ELEMENT pubDate (#PCDATA)>
+        <!ELEMENT guid (#PCDATA)>
