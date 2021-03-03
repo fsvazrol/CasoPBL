@@ -9,84 +9,99 @@
         <!-- Descripcion del Canal -->
         <description>Sindicación de Contenidos del Equipo 3</description>
         <!-- Enlace al sitio del Feed RSS -->
-        <link>https://www.000webhost.com/cpanel-login</link>
+        <link>https://equipo3-lmsgi.000webhostapp.com/2021/03/noticias-actuales-del-equipo-3</link>
         <!-- Especifica el idioma en el que va a ser escrito -->
         <language>es</language>
         <!--Permite que se muestre una imagen cuando los maricones presentan un feed-->
         <image>
             <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/1024px-Feed-icon.svg.png</url>
             <title>Canal del Equipo 3</title>
-            <link>https://www.000webhost.com/cpanel-login</link>
+            <link>https://equipo3-lmsgi.000webhostapp.com/2021/03/noticias-actuales-del-equipo-3</link>
         </image>
 
         <!-- Elementos de feed, estos se muestran en los lectores de RSS en el orden que esten aquí de arriba hacia abajo -->
         <!-- Elemento individual del Fedd -->
         <item>
             <!-- Enlace de la foto del sitio-->
-            <enclosure url="https://phantom-elmundo.unidadeditorial.es/e153f29e1a76964ed48c5590513eeab6/resize/600/f/webp/assets/multimedia/imagenes/2021/02/20/16138511867813.jpg" length="500" type="image/jpeg"/>
+            <enclosure
+                    url="https://phantom-elmundo.unidadeditorial.es/e153f29e1a76964ed48c5590513eeab6/resize/600/f/webp/assets/multimedia/imagenes/2021/02/20/16138511867813.jpg"
+                    length="500" type="image/jpeg"/>
             <category>Internacional</category>
             <!-- Titulo del elemento del feed -->
             <title>Joe Biden declara a Texas zona catastrófica por la ola de frío</title>
             <!-- El autor de la noticia -->
-            <author>pablobardonoticias@outlook.com (Pablo Bardo)</author>
+            <author>pablopardonoticias@outlook.com (Pablo Bardo)</author>
             <!-- Enlace a la seccion del sitio-->
-            <link>https://www.elmundo.es/internacional/2021/02/20/603167ef21efa00a318b4574.html</link>
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia1.html</link>
             <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
-            <description>El número de muertos en este estado sigue subiendo y alcanza ya el medio centenar, aunque se desconoce la cifra exacta</description>
+            <description>El número de muertos en este estado sigue subiendo y alcanza ya el medio centenar, aunque se
+                desconoce la cifra exacta
+            </description>
             <!-- Fecha de publicación -->
             <pubDate>Sat, 20 Feb 2021 21:00:00 GMT</pubDate>
-            <guid>https://www.elmundo.es/internacional/2021/02/20/603167ef21efa00a318b4574.html</guid>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia1.html</guid>
         </item>
 
         <item>
             <!-- Enlace de la foto del sitio-->
-            <enclosure url="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2021/02/20/varane.jpeg" length="500" type="image/jpeg"/>
+            <enclosure url="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2021/02/20/varane.jpeg"
+                       length="500" type="image/jpeg"/>
             <category>Deportes</category>
             <!-- Titulo del elemento del feed -->
             <title>El Real Madrid no falla en Valladolid y ya está a rebufo del Atlético</title>
             <!-- El autor de la noticia -->
             <author>sportyoucontact@gmail.com (SportYou)</author>
             <!-- Enlace a la seccion del sitio-->
-            <link>https://www.20minutos.es/deportes/noticia/4592505/0/directo-valladolid-real-madrid/</link>
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia2.html</link>
             <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
-            <description>El Real Valladolid empezó muy bien, pero al final no pudo evitar que los blancos se llevaran la victoria.</description>
+            <description>El Real Valladolid empezó muy bien, pero al final no pudo evitar que los blancos se llevaran la
+                victoria.
+            </description>
             <!-- Fecha de publicación -->
             <pubDate>Sat, 20 Feb 2021 22:51:00 +0200</pubDate>
-            <guid>https://www.20minutos.es/deportes/noticia/4592505/0/directo-valladolid-real-madrid/</guid>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia2.html</guid>
         </item>
 
         <item>
             <!-- Enlace de la foto del sitio-->
-            <enclosure url="https://sdmedia.elpaisretina.com/imagenes/202012/18/2020121818553596_1608314224_asset_still.png" length="500" type="image/jpeg"/>
+            <enclosure
+                    url="https://sdmedia.elpaisretina.com/imagenes/202012/18/2020121818553596_1608314224_asset_still.png"
+                    length="500" type="image/jpeg"/>
             <category>Cultura</category>
             <!-- Titulo del elemento del feed -->
             <title>Arte Transmadatac: hacia el museo del futuro</title>
             <!-- El autor de la noticia -->
             <author>jlorite@gmail.com (Jaime Lorite)</author>
             <!-- Enlace a la seccion del sitio-->
-            <link>https://retina.elpais.com/retina/2021/01/04/tendencias/1609778866_590019.html</link>
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia3.html</link>
             <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
-            <description>La pandemia ha obligado a replantear la undécima edición de la Muestra de Arte Digital Audiovisual y Tecnologías Acontemporáneas como una experiencia enteramente virtual</description>
+            <description>La pandemia ha obligado a replantear la undécima edición de la Muestra de Arte Digital
+                Audiovisual y Tecnologías Acontemporáneas como una experiencia enteramente virtual
+            </description>
             <!-- Fecha de publicación -->
             <pubDate>Wed, 06 Jan 2021 19:42:00 GMT</pubDate>
-            <guid>https://retina.elpais.com/retina/2021/01/04/tendencias/1609778866_590019.html</guid>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia3.html</guid>
         </item>
 
         <item>
             <!-- Enlace de la foto del sitio-->
-            <enclosure url="https://rt00.epimg.net/retina/imagenes/2021/01/20/innovacion/1611107359_745257_1611111105_noticia_normal_recorte1.jpg" length="500" type="image/jpeg"/>
+            <enclosure
+                    url="https://rt00.epimg.net/retina/imagenes/2021/01/20/innovacion/1611107359_745257_1611111105_noticia_normal_recorte1.jpg"
+                    length="500" type="image/jpeg"/>
             <category>Tecnología</category>
             <!-- Titulo del elemento del feed -->
             <title>‘Lifelogging’, la realidad de la que todos (también usted) formamos parte</title>
             <!-- El autor de la noticia -->
             <author>jdiegogodoy@gmail.com (Juan Diego Godoy)</author>
             <!-- Enlace a la seccion del sitio-->
-            <link>https://retina.elpais.com/retina/2021/01/20/innovacion/1611107359_745257.html</link>
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia4.html</link>
             <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
-            <description>Cuando nos exponemos diariamente a las redes, nuestra privacidad peligra. El rastro digital que dejamos con nuestra actividad cotidiana lo dice casi todo de nostros.</description>
+            <description>Cuando nos exponemos diariamente a las redes, nuestra privacidad peligra. El rastro digital que
+                dejamos con nuestra actividad cotidiana lo dice casi todo de nostros.
+            </description>
             <!-- Fecha de publicación -->
             <pubDate>Sat, 23 Jan 2021 19:15:00 GMT</pubDate>
-            <guid>https://retina.elpais.com/retina/2021/01/20/innovacion/1611107359_745257.html</guid>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia4.html</guid>
         </item>
     </channel>
 </rss>
