@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Declaracion de RSS -->
+<rss version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./SCHEMA.xsd">
+
+    <channel>
+        <!-- Titulo del Canal -->
+        <title>Canal del Equipo 3</title>
+        <!-- Descripcion del Canal -->
+        <description>Sindicación de Contenidos del Equipo 3</description>
+        <!-- Enlace al sitio del Feed RSS -->
+        <link>https://equipo3-lmsgi.000webhostapp.com/2021/03/noticias-actuales-del-equipo-3</link>
+        <!-- Especifica el idioma en el que va a ser escrito -->
+        <language>es</language>
+        <!--Permite que se muestre una imagen cuando los maricones presentan un feed-->
+        <image>
+            <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/1024px-Feed-icon.svg.png</url>
+            <title>Canal del Equipo 3</title>
+            <link>https://equipo3-lmsgi.000webhostapp.com/2021/03/noticias-actuales-del-equipo-3</link>
+        </image>
+
+        <!-- Elementos de feed, estos se muestran en los lectores de RSS en el orden que esten aquí de arriba hacia abajo -->
+        <!-- Elemento individual del Fedd -->
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure
+                    url="https://noticiasya.com/wp-content/uploads/sites/3/2021/02/hypatia-h_af343d2f4370ccae78ba208d3a32cc4f-h_603528de9391f792b321589e43501ed4.jpg"
+                    length="500" type="image/jpeg"/>
+            <category>Internacional</category>
+            <!-- Titulo del elemento del feed -->
+            <title>Joe Biden declara a Texas zona catastrófica por la ola de frío</title>
+            <!-- El autor de la noticia -->
+            <author>(Pablo Bardo)</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia1.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>El número de muertos en este estado sigue subiendo y alcanza ya el medio centenar, aunque se
+                desconoce la cifra exacta
+            </description>
+            <!-- Fecha de publicación -->
+            <pubDate>20/02/2021</pubDate>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia1.html</guid>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure url="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2021/02/20/varane.jpeg"
+                       length="500" type="image/jpeg"/>
+            <category>Deportes</category>
+            <!-- Titulo del elemento del feed -->
+            <title>El Real Madrid no falla en Valladolid y ya está a rebufo del Atlético</title>
+            <!-- El autor de la noticia -->
+            <author>(SportYou)</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia2.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>El Real Valladolid empezó muy bien, pero al final no pudo evitar que los blancos se llevaran la
+                victoria.
+            </description>
+            <!-- Fecha de publicación -->
+            <pubDate>20/02/2021</pubDate>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia2.html</guid>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure
+                    url="https://sdmedia.elpaisretina.com/imagenes/202012/18/2020121818553596_1608314224_asset_still.png"
+                    length="500" type="image/jpeg"/>
+            <category>Cultura</category>
+            <!-- Titulo del elemento del feed -->
+            <title>Arte Transmadatac: hacia el museo del futuro</title>
+            <!-- El autor de la noticia -->
+            <author>(Jaime Lorite)</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia3.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>La pandemia ha obligado a replantear la undécima edición de la Muestra de Arte Digital
+                Audiovisual y Tecnologías Acontemporáneas como una experiencia enteramente virtual
+            </description>
+            <!-- Fecha de publicación -->
+            <pubDate>06/01/2021</pubDate>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia3.html</guid>
+        </item>
+
+        <item>
+            <!-- Enlace de la foto del sitio-->
+            <enclosure
+                    url="https://rt00.epimg.net/retina/imagenes/2021/01/20/innovacion/1611107359_745257_1611111105_noticia_normal_recorte1.jpg"
+                    length="500" type="image/jpeg"/>
+            <category>Tecnología</category>
+            <!-- Titulo del elemento del feed -->
+            <title>‘Lifelogging’, la realidad de la que todos (también usted) formamos parte</title>
+            <!-- El autor de la noticia -->
+            <author>(Juan Diego Godoy)</author>
+            <!-- Enlace a la seccion del sitio-->
+            <link>https://equipo3-lmsgi.000webhostapp.com/Noticia4.html</link>
+            <!-- Descripcion de la actualizacion del sitio que este elemento representa, puede contener cuanto texto e imagenes necesite-->
+            <description>Cuando nos exponemos diariamente a las redes, nuestra privacidad peligra. El rastro digital que
+                dejamos con nuestra actividad cotidiana lo dice casi todo de nostros.
+            </description>
+            <!-- Fecha de publicación -->
+            <pubDate>23/01/2021</pubDate>
+            <guid>https://equipo3-lmsgi.000webhostapp.com/Noticia4.html</guid>
+        </item>
+    </channel>
+</rss>
